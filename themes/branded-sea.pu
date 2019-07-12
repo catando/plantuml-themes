@@ -57,7 +57,7 @@ skinparam ObjectBorderColor BORDER
 skinparam PackageBorderColor BORDER
 skinparam PageBorderColor BORDER
 skinparam ParticipantBorderColor BORDER
-skinparam PartitionBorderColor BORDER
+skinparam PartitionBorderColor ENDPOINT
 skinparam QueueBorderColor BORDER
 skinparam RectangleBorderColor BORDER
 skinparam SequenceBoxBorderColor BORDER
