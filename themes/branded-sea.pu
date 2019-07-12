@@ -5,6 +5,7 @@
 !define LIME            #C1D831
 !define LEMON           #FEDD00
 !define PURPLE          #7D4F9F
+!define White           #FFFFFF
 
 ' Color variants
 !define SOFTLIGHTBLUE   #83CEE7
@@ -13,6 +14,7 @@
 ' Aliases
 !define BORDER          SEA
 !define FILL            SEA
+!define FILLCONTAINER   WHITE   
 !define ENDPOINT        DARKGRAY
 !define TRANSITION      SEA
 !define TEXT            BLACK
@@ -105,7 +107,7 @@ skinparam NoteBackgroundColor FILL
 skinparam ObjectBackgroundColor FILL
 skinparam PackageBackgroundColor FILL
 skinparam ParticipantBackgroundColor FILL
-skinparam PartitionBackgroundColor FILL
+skinparam PartitionBackgroundColor FILLCONTAINER
 skinparam QueueBackgroundColor FILL
 skinparam RectangleBackgroundColor FILL
 skinparam SequenceBoxBackgroundColor FILL
