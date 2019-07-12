@@ -5,7 +5,7 @@
 !define LIME            #C1D831
 !define LEMON           #FEDD00
 !define PURPLE          #7D4F9F
-!define White           #FFFFFF
+!define WHITE           #FFFFFF
 
 ' Color variants
 !define SOFTLIGHTBLUE   #83CEE7
