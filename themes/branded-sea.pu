@@ -14,13 +14,13 @@
 !define COL_DARKSEA         #93ACAD
 
 ' Aliases
-!define COL_BORDER          SEA
-!define COL_FILL            SEA
-!define COL_FILLCONTAINER   WHITE   
-!define COL_ENDPOINT        DARKGRAY
-!define COL_TRANSITION      SEA
-!define COL_TEXT            BLACK
-!define COL_MUTEDTEXT       DARKSEA
+!define COL_BORDER          COL_SEA
+!define COL_FILL            COL_SEA
+!define COL_FILLCONTAINER   COL_WHITE   
+!define COL_ENDPOINT        COL_DARKGRAY
+!define COL_TRANSITION      COL_SEA
+!define COL_TEXT            COL_BLACK
+!define COL_MUTEDTEXT       COL_DARKSEA
 
 'Diagram
 skinparam shadowing false
