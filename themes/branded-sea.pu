@@ -1,25 +1,25 @@
 ' Bright branded colors
-!define BLACK           #000000
-!define DARKGRAY        #3A3A3A
-!define LIGHTBLUE       #1BA3DD
-!define SEA             #B7D8D9
-!define LIME            #C1D831
-!define LEMON           #FEDD00
-!define PURPLE          #7D4F9F
-!define WHITE           #FFFFFF
+!define COLBLACK           #000000
+!define COLDARKGRAY        #3A3A3A
+!define COLLIGHTBLUE       #1BA3DD
+!define COLSEA             #B7D8D9
+!define COLLIME            #C1D831
+!define COLLEMON           #FEDD00
+!define COLPURPLE          #7D4F9F
+!define COLWHITE           #FFFFFF
 
 ' Color variants
-!define SOFTLIGHTBLUE   #83CEE7
-!define DARKSEA         #93ACAD
+!define COLSOFTLIGHTBLUE   #83CEE7
+!define COLDARKSEA         #93ACAD
 
 ' Aliases
-!define BORDER          SEA
-!define FILL            SEA
-!define FILLCONTAINER   WHITE
-!define ENDPOINT        DARKGRAY
-!define TRANSITION      SEA
-!define TEXT            BLACK
-!define MUTEDTEXT       DARKSEA
+!define BORDER          COLSEA
+!define FILL            COLSEA
+!define FILLCONTAINER   COLWHITE
+!define ENDPOINT        COLDARKGRAY
+!define TRANSITION      COLSEA
+!define TEXT            COLBLACK
+!define MUTEDTEXT       COLDARKSEA
 
 'Diagram
 skinparam shadowing false
