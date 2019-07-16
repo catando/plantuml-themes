@@ -16,15 +16,15 @@
 !define COLBORDER           COLSEA
 !define COLFILL             COLSEA
 !define COLFILLCONTAINER    COLWHITE
-!define ENDPOINT            COLDARKGRAY
-!define TRANSITION          COLSEA
+!define COLENDPOINT         COLDARKGRAY
+!define COLTRANSITION       COLSEA
 !define TEXT                COLBLACK
 !define MUTEDTEXT           COLDARKSEA
 
 'Diagram
 skinparam shadowing false
 skinparam DefaultFontName Proxima Nova
-skinparam ArrowColor TRANSITION
+skinparam ArrowColor COLTRANSITION
 skinparam BackgroundColor white
 'skinparam DiagramBorderColor
 
@@ -58,7 +58,7 @@ skinparam ObjectBorderColor COLBORDER
 skinparam PackageBorderColor COLBORDER
 skinparam PageBorderColor COLBORDER
 skinparam ParticipantBorderColor COLBORDER
-skinparam PartitionBorderColor ENDPOINT
+skinparam PartitionBorderColor COLENDPOINT
 skinparam QueueBorderColor COLBORDER
 skinparam RectangleBorderColor COLBORDER
 skinparam SequenceBoxBorderColor COLBORDER
@@ -130,7 +130,7 @@ skinparam TitleBackgroundColor COLFILL
 skinparam UsecaseBackgroundColor COLFILL
 
 ' Start- and Endpoints
-skinparam ActivityStartColor ENDPOINT
-skinparam ActivityEndColor ENDPOINT
-skinparam StateStartColor ENDPOINT
-skinparam StateEndColor ENDPOINT
+skinparam ActivityStartColor COLENDPOINT
+skinparam ActivityEndColor COLENDPOINT
+skinparam StateStartColor COLENDPOINT
+skinparam StateEndColor COLENDPOINT
