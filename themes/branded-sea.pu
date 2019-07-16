@@ -1,4 +1,5 @@
 ' Bright branded colors
+!define BLACK           #000000
 !define DARKGRAY        #3A3A3A
 !define LIGHTBLUE       #1BA3DD
 !define SEA             #B7D8D9
