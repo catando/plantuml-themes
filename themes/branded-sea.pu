@@ -17,7 +17,7 @@
 ' Aliases
 !define COL_BORDER          COL_SEA
 !define COL_FILL            COL_SEA
-!define COL_FILLCONTAINER   COL_WHITE   
+!define COL_FILLCONTAINER   white   
 !define COL_ENDPOINT        COL_DARKGRAY
 !define COL_TRANSITION      COL_SEA
 !define COL_TEXT            COL_BLACK
