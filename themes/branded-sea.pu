@@ -19,7 +19,7 @@
 !define COLENDPOINT         COLDARKGRAY
 !define COLTRANSITION       COLSEA
 !define COLTEXT             COLBLACK
-!define MUTEDTEXT           COLDARKSEA
+!define COLMUTEDTEXT           COLDARKSEA
 
 'Diagram
 skinparam shadowing false
@@ -30,7 +30,7 @@ skinparam BackgroundColor white
 
 ' Text
 skinparam DefaultFontColor COLTEXT
-skinparam ArrowFontColor MUTEDTEXT
+skinparam ArrowFontColor COLMUTEDTEXT
 
 ' BorderColor
 skinparam ActivityBorderColor COLBORDER
