@@ -25,7 +25,7 @@
 skinparam shadowing false
 skinparam DefaultFontName Proxima Nova
 skinparam ArrowColor COLTRANSITION
-skinparam BackgroundColor white
+skinparam BackgroundColor COLWHITE
 'skinparam DiagramBorderColor
 
 ' Text
