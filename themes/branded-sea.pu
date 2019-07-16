@@ -1,6 +1,7 @@
 ' NOTE that those are NOT underscores, but unicode UNDER BARs: _
 
 ' Bright branded colors
+!define COL_BLACK           #000000
 !define COL_DARKGRAY        #3A3A3A
 !define COL_LIGHTBLUE       #1BA3DD
 !define COL_SEA             #B7D8D9
