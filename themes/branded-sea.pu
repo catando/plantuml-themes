@@ -18,7 +18,7 @@
 !define COLFILLCONTAINER    COLWHITE
 !define COLENDPOINT         COLDARKGRAY
 !define COLTRANSITION       COLSEA
-!define TEXT                COLBLACK
+!define COLTEXT             COLBLACK
 !define MUTEDTEXT           COLDARKSEA
 
 'Diagram
@@ -29,7 +29,7 @@ skinparam BackgroundColor white
 'skinparam DiagramBorderColor
 
 ' Text
-skinparam DefaultFontColor TEXT
+skinparam DefaultFontColor COLTEXT
 skinparam ArrowFontColor MUTEDTEXT
 
 ' BorderColor
