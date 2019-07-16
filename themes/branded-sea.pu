@@ -13,13 +13,13 @@
 !define COLDARKSEA         #93ACAD
 
 ' Aliases
-!define COLBORDER       COLSEA
-!define COLFILL         COLSEA
-!define FILLCONTAINER   COLWHITE
-!define ENDPOINT        COLDARKGRAY
-!define TRANSITION      COLSEA
-!define TEXT            COLBLACK
-!define MUTEDTEXT       COLDARKSEA
+!define COLBORDER           COLSEA
+!define COLFILL             COLSEA
+!define COLFILLCONTAINER    COLWHITE
+!define ENDPOINT            COLDARKGRAY
+!define TRANSITION          COLSEA
+!define TEXT                COLBLACK
+!define MUTEDTEXT           COLDARKSEA
 
 'Diagram
 skinparam shadowing false
@@ -108,7 +108,7 @@ skinparam NoteBackgroundColor COLFILL
 skinparam ObjectBackgroundColor COLFILL
 skinparam PackageBackgroundColor COLFILL
 skinparam ParticipantBackgroundColor COLFILL
-skinparam PartitionBackgroundColor FILLCONTAINER
+skinparam PartitionBackgroundColor COLFILLCONTAINER
 skinparam QueueBackgroundColor COLFILL
 skinparam RectangleBackgroundColor COLFILL
 skinparam SequenceBoxBackgroundColor COLFILL
