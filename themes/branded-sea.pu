@@ -23,7 +23,7 @@
 
 'Diagram
 skinparam shadowing false
-skinparam DefaultFontName Proxima Nova
+skinparam DefaultFontName SansSerif
 skinparam ArrowColor $COLOR_TRANSITION
 skinparam BackgroundColor $COLOR_WHITE
 'skinparam DiagramBorderColor
