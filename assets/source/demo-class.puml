@@ -1,0 +1,29 @@
+'Inspired by https://real-world-plantuml.com/
+@startuml
+
+!include ../../themes/branded-sea.pu
+'To pull from web instead of local version
+'!include https://raw.githubusercontent.com/catando/plantuml-themes/master/themes/branded-sea.pu
+
+note as n
+	ActiveRecord
+	("save yourself")
+end note
+
+class DAO{
+	{static} Entity find(id)
+	{static} List<Entity> findBy(criteria for select)
+	update(Entity)
+	save(Entity)
+	delete(Entity)
+	{static} Finder
+}
+
+Ballot --|> DAO
+
+note left of Ballot
+	Ballot ballot = new Ballot( ... );
+	ballot.save();
+end note
+
+@enduml

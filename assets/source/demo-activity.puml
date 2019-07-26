@@ -1,0 +1,20 @@
+'Inspired by https://real-world-plantuml.com/
+@startuml
+
+!include ../../themes/branded-sea.pu
+'To pull from web instead of local version
+'!include https://raw.githubusercontent.com/catando/plantuml-themes/master/themes/branded-sea.pu
+
+start
+:Init Phase;
+:Transfer Phase;
+note right
+long running activity,
+process requires signal to proceed
+end note
+partition "Mark II" {
+	:Termination Phase;
+}
+stop
+
+@enduml
