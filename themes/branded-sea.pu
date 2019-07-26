@@ -13,13 +13,15 @@
 !$COLOR_DARKSEA         = "#93ACAD"
 
 ' Aliases
-!$COLOR_BORDER           = $COLOR_SEA
+!$COLOR_BORDER_FLAT      = $COLOR_SEA
+!$COLOR_BORDER           = $COLOR_DARKGRAY
 !$COLOR_FILL             = $COLOR_SEA
 !$COLOR_FILLCONTAINER    = $COLOR_WHITE
 !$COLOR_ENDPOINT         = $COLOR_DARKGRAY
 !$COLOR_TRANSITION       = $COLOR_SEA
 !$COLOR_TEXT             = $COLOR_BLACK
 !$COLOR_MUTEDTEXT        = $COLOR_DARKSEA
+!$COLOR_NOTE             = $COLOR_LEMON
 
 'Diagram
 skinparam shadowing false
@@ -104,7 +106,7 @@ skinparam IconPublicBackgroundColor $COLOR_FILL
 skinparam InterfaceBackgroundColor $COLOR_FILL
 skinparam LegendBackgroundColor $COLOR_FILL
 skinparam NodeBackgroundColor $COLOR_FILL
-skinparam NoteBackgroundColor $COLOR_FILL
+skinparam NoteBackgroundColor $COLOR_NOTE
 skinparam ObjectBackgroundColor $COLOR_FILL
 skinparam PackageBackgroundColor $COLOR_FILL
 skinparam ParticipantBackgroundColor $COLOR_FILL
