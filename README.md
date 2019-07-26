@@ -17,3 +17,9 @@ Include them in your UML scripts thus:
 ![Class](assets/rendered/demo-class.png)
 
 ![Fonts](assets/rendered/listfonts.png)
+
+# Contributing
+
+Fork and add your enhancements.
+
+To render the examples, make sure Docker is running on your computer and run `make`. This workflow assumes you use a unix-based operating system, like Linux or MacOS; you will need to make adjustments if you are using Windows.
